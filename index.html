@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ezequiel y Analia</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="assets/icons/css/all.min.css" />
+		<link rel="icon" type="image/svg+xml" href="./assets/Ezequiel-Analia.png" />
+	</head>
+	<body>
+		<!-- NAV -->
+
+		<header>
+			<nav>
+				<p>Ezequiel y Analia</p>
+			</nav>
+		</header>
+
+		<!-- MUSIC -->
+
+		<div class="container-music">
+			<audio controls loop id="main-song">
+				<source src="./assets/How Long Will I Love You.mp3" type="audio/mpeg" />
+			</audio>
+
+			<button id="volume-btn">
+				<i class="fas fa-volume-high icon-visible" id="volume-high"></i>
+				<i class="fas fa-volume-xmark" id="volume-slow"></i>
+			</button>
+		</div>
+
+		<!-- BANNER -->
+
+		<div class="container-banner">
+			<div class="cover-banner">
+				<img class="banner-img" src="./assets/Sin título.jpg" />
+
+				<div class="text-banner">
+					<img class="logo-img" src="./assets/EA.png" alt="logo" />
+					<h2>¡Nos casamos!</h2>
+					<p>y queremos compartilo con vos</p>
+
+					<i class="fa-solid fa-chevron-down arrow-img"></i>
+				</div>
+			</div>
+		</div>
+
+		<!-- DATE -->
+
+		<div class="container-date" id="intro">
+			<h4>AGENDÁ LA FECHA</h4>
+			<h2>23 de Marzo</h2>
+
+			<div class="cover-countdown">
+				<div class="countdown-box">
+					<p class="countdown" id="days"></p>
+					<p class="countdown-text">DIA(S)</p>
+				</div>
+
+				<div class="cover-points">
+					<p class="points">:</p>
+				</div>
+
+				<div class="countdown-box">
+					<p class="countdown" id="hours"></p>
+					<p class="countdown-text">HORA(S)</p>
+				</div>
+
+				<div class="cover-points">
+					<p class="points">:</p>
+				</div>
+
+				<div class="countdown-box">
+					<p class="countdown" id="minutes"></p>
+					<p class="countdown-text">MINUTO(S)</p>
+				</div>
+
+				<div class="cover-points">
+					<p class="points">:</p>
+				</div>
+
+				<div class="countdown-box">
+					<p class="countdown" id="seconds"></p>
+					<p class="countdown-text">SEGUNDO(S)</p>
+				</div>
+			</div>
+
+			<a
+				target="_blank"
+				href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MjNiZXYxN21lbTRsZmFmN3NkdmI1MHBobXIgZzU1a2hvdW5kQG0&amp;dates=20240323T190000Z/20240323T200000Z&amp;text=Casamiento%20Ezequiel%20y%20Analia"
+			>
+				<i class="fa-solid fa-calendar-days"></i> AGENDAR FECHA
+			</a>
+		</div>
+
+		<div class="hr_box">
+			<hr />
+		</div>
+
+		<!-- PLACES -->
+
+		<div class="container-places">
+			<!-- <div class="cover-places"> -->
+			<div class="place-box">
+				<i class="fa-solid fa-book-bible"></i>
+				<h4>Civil</h4>
+				<p>Registro Civil de Virrey del Pino.</p>
+				<p>José Gorostiaga 5845.</p>
+				<p>Viernes 22 de Marzo, 11:30 hs.</p>
+				<button><i class="fa-solid fa-location-dot"></i> COMO LLEGAR</button>
+			</div>
+
+			<div class="place-box">
+				<i class="fa-solid fa-church"></i>
+				<h4>Ceremonia</h4>
+				<p>Iglesia Libres en Cristo.</p>
+				<p>Aristóbulo del Valle y San Martin,</p>
+				<p>Santa Anita, Cañuelas.</p>
+				<p>Sábado 23 de Marzo, 19:00 hs.</p>
+				<button><i class="fa-solid fa-location-dot"></i> COMO LLEGAR</button>
+			</div>
+			<!-- </div> -->
+		</div>
+
+		<!-- HISTORY -->
+
+		<div class="container-history">
+			<div class="cover-image">
+				<img src="./assets/Sin título.jpg" />
+			</div>
+
+			<div class="cover-history">
+				<div class="history-box">
+					<h4>Nuestra historia</h4>
+					<p>
+						Hace 8 años Dios unía nuestros caminos y lo que comenzó como una
+						amistad, se convirtió en la historia de amor de nuestras vidas! Hoy
+						celebramos nuestra unión y queremos compartirlo con ustedes!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- PHOTOS -->
+
+		<div class="container-photos">
+			<div class="photos-text">
+				<h4>ÁLBUM DE FOTOS</h4>
+				<h2>Momentos únicos</h2>
+			</div>
+
+			<div class="cover-photos">
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+				<img src="./assets/Sin título.jpg" />
+			</div>
+		</div>
+
+		<!-- GIFTS -->
+
+		<div class="container-gifts">
+			<img src="./assets/Sin título.jpg" />
+
+			<div class="cover-gifts">
+				<i class="fa-solid fa-gift"></i>
+				<h4>Regalos</h4>
+				<p>
+					El regalo más importante para nosotros es contar con su presencia!
+				</p>
+				<p>Si les gustaría hacernos otro regalo...</p>
+
+				<button id="open-assistance-btn">
+					<i class="fa-solid fa-circle-info"></i> MAS INFORMACIÓN
+				</button>
+
+				<div id="modal-assistance" class="modal">
+					<div class="modal-content">
+						<h4>Datos</h4>
+						<span class="close-btn"
+							><i class="fa-solid fa-circle-xmark"></i
+						></span>
+
+						<div>
+							<p>Daniel Ezequiel Brambilla</p>
+							<p>Alias: BODA.EZEYANA</p>
+							<p>CBU: 0140042703512055285503</p>
+
+							<button id="copy-btn">
+								<i class="fa-solid fa-copy"></i> Copiar CBU
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ASSISTANCE -->
+
+		<div class="container-assistance">
+			<i class="fa-solid fa-clipboard-list"></i>
+			<h4>Confirmación de asistencia</h4>
+			<p>Será un placer contar con tu presencia</p>
+
+			<a
+				target="_blank"
+				href="https://wa.me/1139301751?text=%C2%A1%C2%A1%20Confirmo%20la%20asistencia%20de%20...%20!!"
+			>
+				<i class="fa-solid fa-circle-check"></i> CONFIRMAR ASISTENCIA
+			</a>
+		</div>
+
+		<!-- FOOTER -->
+
+		<div class="footer">
+			¡Gracias por acompañarnos en este momento tan especial!
+		</div>
+
+		<!-- SCRIPTS -->
+		<script src="assets/icons/js/all.min.js"></script>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
