@@ -198,12 +198,13 @@ nav p {
 	font-size: 30px;
 	font-weight: 300;
 	color: black;
+	padding-bottom: 20px;
 }
 
 .container-date a {
 	text-decoration: none;
 	padding: 10px 20px;
-	margin-top: 30px;
+	margin-top: 40px;
 	border-radius: 50px;
 	color: var(--secundary-color);
 	background-color: var(--primary-color);
@@ -259,7 +260,7 @@ nav p {
 .place-box {
 	display: grid;
 	place-items: center;
-	margin: 40px 0px;
+	margin: 40px;
 	color: black;
 }
 
@@ -327,6 +328,7 @@ nav p {
 .cover-history {
 	display: flex;
 	width: 100%;
+	/* padding: 30px 0px; */
 	background-color: var(--primary-color);
 	color: var(--secundary-color);
 }
@@ -336,7 +338,7 @@ nav p {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	margin: 30px 50px;
+	margin: 0px 30px;
 }
 
 .history-box h4 {
@@ -364,6 +366,7 @@ nav p {
 	font-size: 30px;
 	font-weight: 300;
 	color: black;
+	padding-bottom: 20px;
 }
 
 .cover-photos {
@@ -579,7 +582,7 @@ nav p {
 	/* HISTORY  */
 
 	.container-history {
-		height: 50vh;
+		height: 90vh;
 		flex-wrap: wrap;
 	}
 
