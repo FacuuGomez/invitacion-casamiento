@@ -586,6 +586,10 @@ nav p {
 		flex-wrap: wrap;
 	}
 
+	.history-box h4 {
+		padding-bottom: 5px;
+	}
+
 	/* GIFTS  */
 
 	.container-gifts {
@@ -597,7 +601,17 @@ nav p {
 		padding: 30px;
 	}
 
+	.cover-gifts h4 {
+		padding-bottom: 5px;
+	}
+
 	.modal-content {
 		margin-top: 40vh;
+	}
+
+	/* PLACES  */
+
+	.place-box h4 {
+		padding-bottom: 5px;
 	}
 }
