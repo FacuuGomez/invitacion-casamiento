@@ -119,6 +119,7 @@ nav p {
 	position: relative;
 	margin: 0px 30px;
 	margin-top: 66px;
+	width: 80%;
 }
 
 .cover-banner::before {
@@ -325,11 +326,6 @@ nav p {
 	background: url('./assets/Sin título.jpg');
 }
 
-/* .cover-image img {
-	width: 100%;
-	object-fit: cover;
-} */
-
 .cover-history {
 	display: flex;
 	width: 100%;
@@ -358,7 +354,7 @@ nav p {
 .container-photos {
 	display: grid;
 	place-items: center;
-	margin: 100px 30px;
+	margin: 100px 0px;
 }
 
 .photos-text {
@@ -596,6 +592,10 @@ nav p {
 
 	/* BANNER  */
 
+	.cover-banner {
+		width: 90%;
+	}
+
 	.text-banner {
 		top: 80%;
 	}
@@ -641,8 +641,8 @@ nav p {
 	}
 
 	.container-photos button {
-		width: 175px;
-		height: 275px;
+		width: 190px;
+		height: 270px;
 		margin: 5px;
 	}
 
