@@ -117,7 +117,7 @@ nav p {
 
 .cover-banner {
 	position: relative;
-	width: 80%;
+	margin: 0px 30px;
 	margin-top: 66px;
 }
 
@@ -267,11 +267,13 @@ nav p {
 .fa-book-bible {
 	color: var(--primary-color);
 	font-size: 30px;
+	padding-bottom: 5px;
 }
 
 .fa-church {
 	color: var(--primary-color);
 	font-size: 30px;
+	padding-bottom: 5px;
 }
 
 .place-box h4 {
@@ -318,12 +320,15 @@ nav p {
 .cover-image {
 	display: flex;
 	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	background: url('./assets/Sin título.jpg');
 }
 
-.cover-image img {
+/* .cover-image img {
 	width: 100%;
 	object-fit: cover;
-}
+} */
 
 .cover-history {
 	display: flex;
@@ -353,7 +358,7 @@ nav p {
 .container-photos {
 	display: grid;
 	place-items: center;
-	margin: 100px 0px;
+	margin: 100px 30px;
 }
 
 .photos-text {
@@ -366,20 +371,36 @@ nav p {
 	font-size: 30px;
 	font-weight: 300;
 	color: black;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .cover-photos {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	/* margin: 0px 50px; */
-	/* width: 80%; */
+	margin: 0px 30px;
 }
 
 .cover-photos img {
-	width: 300px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+	transition: all 0.5s;
+}
+
+.container-photos button {
+	width: 250px;
+	height: 350px;
+	border: none;
 	margin: 10px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.cover-photos img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -390,11 +411,13 @@ nav p {
 	display: grid;
 	place-items: center;
 	position: relative;
-}
-
-.container-gifts img {
+	background-color: red;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	/* background-size: cover; */
+	/* background-position: center top; */
+	background: url('./assets/Sin título.jpg');
+	background-attachment: fixed;
 }
 
 .cover-gifts {
@@ -561,10 +584,16 @@ nav p {
 }
 
 /* ---------------------------------------------------------------------------------------- */
-/* PHONE */
+/* MOBILE */
 /* ---------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 700px) {
+	/* NAV  */
+
+	nav p {
+		font-size: 35px;
+	}
+
 	/* BANNER  */
 
 	.text-banner {
@@ -572,13 +601,20 @@ nav p {
 	}
 
 	.text-banner h2 {
-		font-size: 35px;
+		font-size: 45px;
 		font-weight: 300;
 	}
 
 	.text-banner p {
-		font-size: 12px;
+		font-size: 15px;
 	}
+
+	/* PLACES  */
+
+	.place-box h4 {
+		padding-bottom: 5px;
+	}
+
 	/* HISTORY  */
 
 	.container-history {
@@ -586,8 +622,32 @@ nav p {
 		flex-wrap: wrap;
 	}
 
+	.cover-image {
+		height: 50%;
+	}
+
+	.cover-history {
+		height: 50%;
+	}
+
 	.history-box h4 {
 		padding-bottom: 5px;
+	}
+
+	/* PHOTOS  */
+
+	.container-photos h2 {
+		padding-bottom: 30px;
+	}
+
+	.container-photos button {
+		width: 175px;
+		height: 275px;
+		margin: 5px;
+	}
+
+	.cover-photos {
+		margin: 0px;
 	}
 
 	/* GIFTS  */
@@ -607,11 +667,5 @@ nav p {
 
 	.modal-content {
 		margin-top: 40vh;
-	}
-
-	/* PLACES  */
-
-	.place-box h4 {
-		padding-bottom: 5px;
 	}
 }
