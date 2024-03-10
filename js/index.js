@@ -87,33 +87,31 @@ const x = setInterval(function () {
 // PHOTOS
 /* ---------------------------------------------------------------------------------------- */
 
-new Swiper(".swiper", {
-    direction: "horizontal",
-    loop: true,
+new Swiper('.swiper', {
+	direction: 'horizontal',
+	loop: true,
 
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    },
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
 
-    autoplay: {
-        delay: 3000
-    },
+	autoplay: {
+		delay: 3000,
+	},
 
-    pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-        clickable: true
-    }
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
 });
-
 
 // Modal
 
 // const modalImage = document.getElementById('modal-image');
 // const openModalImageBtn = document.getElementById('open-image-btn1');
 // const closeImageBtn = document.getElementsByClassName('close-image-btn')[0];
-
 
 // openModalImageBtn.onclick = function () {
 // 	console.log('openModalImageBtn', openModalImageBtn);
@@ -139,8 +137,8 @@ new Swiper(".swiper", {
 
 // Modal
 
-const modal = document.getElementById('modal-assistance');
-const openModalBtn = document.getElementById('open-assistance-btn');
+const modal = document.getElementById('modal-gifts');
+const openModalBtn = document.getElementById('open-gifts-btn');
 const closeBtn = document.getElementsByClassName('close-btn')[0];
 
 openModalBtn.onclick = function () {

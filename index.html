@@ -18,7 +18,8 @@
 				<p>Ezequiel y Analia</p>
 			</nav>
 		</header>
-
+		
+		<!-- <main> -->
 		<!-- MUSIC -->
 
 		<div class="container-music">
@@ -108,9 +109,7 @@
 					<h2>Momentos únicos</h2>
 				</div>
 			
-			
 				<!-- Swiper -->
-			
 			
 				<div class="swiper">
 					<!-- contenedor de swiper -->
@@ -175,11 +174,6 @@
 							<div class="text-container">
 							</div>
 						</div>
-						<!-- slide 13 -->
-						<div class="swiper-slide slide-13 slide-item img-13">
-							<div class="text-container">
-							</div>
-						</div>
 						<!-- slide 14 -->
 						<div class="swiper-slide slide-14 slide-item img-14">
 							<div class="text-container">
@@ -191,9 +185,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-pagination"></div>
+					<div id="sbp" class="swiper-button-prev"></div>
+					<div id="sbn" class="swiper-button-next"></div>
 				</div>
 
 		<!-- PLACES -->
@@ -226,7 +219,8 @@
 		<!-- HISTORY -->
 
 		<div class="container-history">
-			<div class="cover-image"></div>
+			<div class="cover-image">
+			</div>
 
 			<div class="cover-history">
 				<div class="history-box">
@@ -308,6 +302,21 @@
 
 		</div> -->
 
+				<!-- ASSISTANCE -->
+
+		<div class="container-assistance">
+			<i class="fa-solid fa-clipboard-list"></i>
+			<h4>Confirmación de asistencia</h4>
+			<p>Será un placer contar con tu presencia</p>
+
+			<a
+				target="_blank"
+				href="https://wa.me/541139301751?text=%C2%A1%C2%A1%20Confirmo%20la%20asistencia%20de%20...%20!!"
+			>
+				<i class="fa-solid fa-circle-check"></i> CONFIRMAR ASISTENCIA
+			</a>
+		</div>
+
 		<!-- GIFTS -->
 
 		<div class="container-gifts">
@@ -316,14 +325,15 @@
 				<h4>Regalos</h4>
 				<p>
 					El regalo más importante para nosotros es contar con su presencia!
+					<br>
+					Si les gustaría hacernos otro regalo...
 				</p>
-				<p>Si les gustaría hacernos otro regalo...</p>
 
-				<button id="open-assistance-btn">
+				<button id="open-gifts-btn">
 					<i class="fa-solid fa-circle-info"></i> MAS INFORMACIÓN
 				</button>
 
-				<div id="modal-assistance" class="modal">
+				<div id="modal-gifts" class="modal">
 					<div class="modal-content">
 						<h4>Datos</h4>
 						<span class="close-btn"
@@ -344,30 +354,16 @@
 			</div>
 		</div>
 
-		<!-- ASSISTANCE -->
-
-		<div class="container-assistance">
-			<i class="fa-solid fa-clipboard-list"></i>
-			<h4>Confirmación de asistencia</h4>
-			<p>Será un placer contar con tu presencia</p>
-
-			<a
-				target="_blank"
-				href="https://wa.me/541139301751?text=%C2%A1%C2%A1%20Confirmo%20la%20asistencia%20de%20...%20!!"
-			>
-				<i class="fa-solid fa-circle-check"></i> CONFIRMAR ASISTENCIA
-			</a>
-		</div>
-
 		<!-- FOOTER -->
 
 		<div class="footer">
 			¡Gracias por acompañarnos en este momento tan especial!
 		</div>
-
+		
 		<!-- SCRIPTS -->
 		<script src="assets/icons/js/all.min.js"></script>
 		<script src="./js/swiper-bundle.min.js"></script>
 		<script type="module" src="./js/index.js"></script>
+	<!-- </main> -->
 	</body>
 </html>
