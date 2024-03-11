@@ -521,7 +521,7 @@ nav p {
 	height: 100vh;
 	background-size: cover;
 	background-position: center top;
-	background-image: url('../assets/Ana\ &\ Eze\ Pre-Boda-30.jpg');
+	background-image: url('../assets/Ana\ &\ Eze\ Pre-Boda-30-desktop.jpg');
 	background-attachment: fixed;
 }
 
@@ -876,7 +876,7 @@ nav p {
 
 	.container-gifts {
 		height: 60vh;
-		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-30-mobile.jpg');
+		background-image: url('../assets//Ana\ &\ Eze\ Pre-Boda-30.jpg');
 	}
 
 	.cover-gifts {
