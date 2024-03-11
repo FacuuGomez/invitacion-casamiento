@@ -424,7 +424,7 @@ nav p {
 }
 
 .img-5 {
-	background-image: url('../assets/images-desktop/Ana\ &\ Eze\ Pre-Boda-30-desktop.jpg');
+	background-image: url('../assets/images-desktop/Ana\ &\ Eze\ Pre-Boda-19.jpg');
 }
 
 .img-6 {
@@ -449,10 +449,6 @@ nav p {
 
 .img-11 {
 	background-image: url('../assets/images-desktop/Ana\ &\ Eze\ Pre-Boda-79-desktop.jpg');
-}
-
-.img-12 {
-	background-image: url('../assets/images-desktop/Ana\ &\ Eze\ Pre-Boda-80-desktop.jpg');
 }
 
 .img-14 {
@@ -525,7 +521,7 @@ nav p {
 	height: 100vh;
 	background-size: cover;
 	background-position: center top;
-	background-image: url('../assets/Ana\ &\ Eze\ Pre-Boda-19.jpg');
+	background-image: url('../assets/Ana\ &\ Eze\ Pre-Boda-30.jpg');
 	background-attachment: fixed;
 }
 
@@ -717,8 +713,20 @@ nav p {
 	width: 100%;
 }
 
+.verse-note {
+	font-size: 18px;
+}
+
+.text-note {
+	padding-top: 5px;
+	font-size: 12px;
+}
+
 .container-note p {
 	text-align: center;
+}
+
+.cover-note {
 	padding: 0px 30px;
 }
 
@@ -730,7 +738,7 @@ nav p {
 	display: grid;
 	place-items: center;
 	padding: 20px 30px;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
 }
 
@@ -829,7 +837,7 @@ nav p {
 	}
 
 	.img-5 {
-		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-30.jpg');
+		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-19.jpg');
 	}
 
 	.img-6 {
@@ -856,10 +864,6 @@ nav p {
 		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-79.jpg');
 	}
 
-	.img-12 {
-		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-80.jpg');
-	}
-
 	.img-14 {
 		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-90.jpg');
 	}
@@ -872,6 +876,7 @@ nav p {
 
 	.container-gifts {
 		height: 60vh;
+		background-image: url('../assets/images-mobile/Ana\ &\ Eze\ Pre-Boda-30-mobile.jpg');
 	}
 
 	.cover-gifts {
