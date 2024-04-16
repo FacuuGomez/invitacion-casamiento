@@ -50,7 +50,7 @@ audio.play();
 /* ---------------------------------------------------------------------------------------- */
 
 // Establecer la fecha de finalización
-const countDownDate = new Date('March 23, 2024 19:00:00').getTime();
+const countDownDate = new Date('March 23, 2025 19:00:00').getTime();
 
 // Actualizar la cuenta regresiva cada segundo
 const x = setInterval(function () {
